@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Building an Alexa Skill to report Stock Prices
+title: Searching up Magic Cards with Alexa
 ---
 
 After having given a shot a querying real-time stock information, I decided to go ahead and look up Magic Cards instead. Finding a free, easy-to-use, readily available API for getting at stock prices proved harder than I thought it would (or should) be. I thought it wouldn't really matter; the process for getting at the information is exactly the same - name a thing, have the program look at a database to find that thing, and then tell you information about the thing.
