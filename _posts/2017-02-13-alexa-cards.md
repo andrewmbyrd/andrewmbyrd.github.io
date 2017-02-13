@@ -12,7 +12,7 @@ Now there is a huge asymmetry here. There are only about two dozen card attribut
 By the way, here's what a Magic card looks like in case you're not familiar. It's explained in further detail <a href="http://magic.wizards.com/en/game-info/planeswalker-cards"> here </a>
 
 {:.center}
-![NTDOY stock prices]({{ site.baseurl }}/img/stock_price.PNG)
+![example card]({{ site.baseurl }}/img/card_explanation.png)
 
 On the other hand, there are thousands and tens of thousands of _names_ of cards. Further, the names are the opposite of standard words you'd find in an English dictionary. 
 
