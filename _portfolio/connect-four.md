@@ -9,7 +9,7 @@ short-description: The classic Connect Four game with the convenience of a digit
 {:.center}
 ![]({{site.baseurl}}/img/connect_four.JPG)
 {:.center}
-You can play connect four <a href='#'>here</a>!
+You can play connect four <a href='https://dry-savannah-43148.herokuapp.com/'>here</a>!
 
 ## Summary
 
@@ -24,7 +24,7 @@ As part of the Bloc curriculum, there are several career preparation checkpoints
 
 The following are issues that came up during development of the project.  
 
-1. Which framework to use? As with any project, the first step can be the hardest. Deciding how to implement any project depends on whether you choose to use bare bones Javascript, Angular JS, Ruby, or whatever other implementation one has access to. For this project, I ultimately decided to use the Angular JS framework.
+1.Which framework to use? As with any project, the first step can be the hardest. Deciding how to implement any project depends on whether you choose to use bare bones Javascript, Angular JS, Ruby, or whatever other implementation one has access to. For this project, I ultimately decided to use the Angular JS framework.
 
 2. How is the best way to represent the game board? Of course, intitally, the board starts out as 42 empty slots arranged into a grid pattern. Would a matrix class need to be created, or would an array suffice?
 
@@ -34,18 +34,18 @@ The following are issues that came up during development of the project.
 
 ## Solutions
 
-1. The problem of which framework to use seemed to answer itself. My experience up to that point with web development involved Javascript and Ruby. With Ruby, the only interaction with the web had come with Ruby on Rails. A Connect Four application doesn't need to have data persisted, so Javascript won the decision. Given that I needed a system that interacted with periodic, event-driven input from the user, either of plain old Javascript or AngularJS would work. Angular provides some nice, built-in associations, so I elected to leverage that framework.  
+**The** problem of which framework to use seemed to answer itself. My experience up to that point with web development involved Javascript and Ruby. With Ruby, the only interaction with the web had come with Ruby on Rails. A Connect Four application doesn't need to have data persisted, so Javascript won the decision. Given that I needed a system that interacted with periodic, event-driven input from the user, either of plain old Javascript or AngularJS would work. Angular provides some nice, built-in associations, so I elected to leverage that framework.  
 
-2. There are actually two separate problems of how to represent the game board. The first problem is how to represent the game board in memory, or as a Javascript construct. The second is how to represent the board to the user everytime a game chip is inserted into a column. So to solve the first problem, I indeed set up the board as an object.
+**There** are actually two separate problems of how to represent the game board. The first problem is how to represent the game board in memory, or as a Javascript construct. The second is how to represent the board to the user everytime a game chip is inserted into a column. So to solve the first problem, I indeed set up the board as an object.
 
 {% highlight javascript %}
 var Board = {};
 {% endhighlight %}
 
-I gave it a `matrix` property that is an array. The best way to picture the array is as a list of rows, each of which contain a list of columns:
+I gave it a `matrix` property that is an array. The best way to picture the array is as a list of columns, each of which contain a list of rows:
 
 {% highlight javascript %}
-/*Board.matrix is an array of rows. each row is an array of columns. The bottom of each column is index 0
+/*Board.matrix is an array of columns. each column is an array of rows. The bottom of each column is index 0
          *so the bottom-left of the Connect Four board is Board.matrix[0][0]
          *the bottom right slot is Board.matrix[6][0]
          etc.*/
@@ -84,7 +84,7 @@ $(".slots")[((6-replaceIndex)*7-1) - (6-column)]
 
 where `column` is the index in `Board.matrix` of the `arrow` DOM element that the user clicked, and `replaceIndex` is the lowest index within the column array that has yet to be filled. (whew!)
 
-3. To determine a winner, we need to look in eight directions around whatever chip was just inserted: up, down, left, right, northeast, northwest, southeast, and southwest. The simplest thing to do is to draw 4 arrays around a chip whenever it is inserted, and if any one of them has the same value in 4 consecutive indices, then the winner of the game is the player that just inserted the chip.
+**To** determine a winner, we need to look in eight directions around whatever chip was just inserted: up, down, left, right, northeast, northwest, southeast, and southwest. The simplest thing to do is to draw 4 arrays around a chip whenever it is inserted, and if any one of them has the same value in 4 consecutive indices, then the winner of the game is the player that just inserted the chip.
 
 There is an intersting insight into the mechanics of different languages here. My initial implementaion was something like
 
@@ -98,12 +98,12 @@ for(var i=0; i < arr.length; i++){
 
  The issue comes down to what different languages consider Truthy or Falsy. Our `Board.matrix` was initialized with many 0's. A 1 or 2 replaced the zero whenever the corresponding player inserted a chip there. Depending on the language being used, the Integer 0 may be true or false. Javascript considers 0 a _Falsy_ value. Ruby, on the other hand, considers 0 _Truthy_. This bit of information was an interesting learning for me.
  
- 4. Finally, I needed to implement a way to reset the game board by one move. I solved this by maintaining object properties `hotColumn` and `hotRow`, which together contained the coordinates of the most-recently-placed chip. Using the same relation described above, the board state and DOM state could be reset by one move when necessary.
+**Finally**, I needed to implement a way to reset the game board by one move. I solved this by maintaining object properties `hotColumn` and `hotRow`, which together contained the coordinates of the most-recently-placed chip. Using the same relation described above, the board state and DOM state could be reset by one move when necessary.
 
 
 ## Results
 
-The end result is a fully functional connect four game! The game will alert when a winner is declared, and there's no messy clean up between each game.
+The end result is a fully functional connect four game! The game will alert when a winner is declared, and there's no messy clean up between each game. Don't forget to give the game a try at my heroku repo <a href='https://dry-savannah-43148.herokuapp.com/'>here</a>!
 
 ## Conclusion
 
