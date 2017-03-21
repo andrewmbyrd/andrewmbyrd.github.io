@@ -70,7 +70,7 @@ if(event.target.className==="ion-skip-forward"){
 
 ## Results
 
-One of the best thing about this job was the ease of testing. They say all children are born with a scientific mind: create a hypothesis, test it, observe results, repeat. This process was made easy with the tool <a href="http://brackets.io/">Brackets</a>. Testing was performed in real-time to ensure that the code implemented was successful.
+One of the best things about this job was the ease of testing. They say all children are born with a scientific mind: create a hypothesis, test it, observe results, repeat. This process was made easy with the tool <a href="http://brackets.io/">Brackets</a>. Testing was performed in real-time to ensure that the implemented code was successful.
 
 ## Conclusion
 
