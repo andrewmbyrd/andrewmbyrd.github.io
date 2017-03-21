@@ -9,15 +9,15 @@ short-description: BlocJams is a web-based music player that can display a colle
 {:.center}
 ![]({{site.baseurl}}/img/blocjams.png)
 
-##Summary
+## Summary
 
 There are no web-based music players that can handle great works from the likes of Pablo Picasso. Bloc Jams was created to faciliate easy music streaming from your favorite browser, on your home computer or mobile device. This fully functional player lets you store and view your collection of albums, plays songs, even control *volume*.
 
-##Explanation
+## Explanation
 
 Bloc needed something to show off what they could do; they had to prove they had the right curriculum to deliver great web developers to top companies. They needed their students to be able to deliver a practical project that was fair, challenging, and fun. Students needed to gain confidence and programming experience within only a few weeks. This was the environment which gave rise to BlocJams. For this round, I was the student - the junior developer that would prove to the world that BlocJams could be done by someone with no html, css, or javascript experience whatsoever.
 
-##Problem
+## Problem
 
 When I was shown the framework that had been built for BlocJams, the application was only half complete. The Bloc team needed me to improve functionality in several ways:
 
@@ -70,11 +70,11 @@ if(event.target.className==="ion-skip-forward"){
 
 * Finally, I was able to invoke Math functions in order to update current playing time in a song, and to correct the html in real-time to reflect those changes accordingly.
 
-##Results
+## Results
 
 One of the best thing about this job was the ease of testing. They say all children are born with a scientific mind: create a hypothesis, test it, observe results, repeat. This process was made easy with the tool <a href="http://brackets.io/">Brackets</a>. Testing was performed in real-time to ensure that the code implemented was successful.
 
-##Conclusion
+## Conclusion
 
 Each of these solutions I've presented here worked, but that doesn't mean there weren't road bumps along the way. The biggest problem was getting the syntax of JavaScript and CSS and HTML fully under control. A good deal of time was spent correcting, not logic issues, but essentially grammatical errors. 
 
