@@ -26,7 +26,7 @@ When I was shown the framework that had been built for BlocJams, the application
   * Find the next album to be played and click on it
 This was clunky and undesireable.
 
-2.  There was non-DRY code in the change song functionality. The Next and Previous song buttons each had their own function definitions, even though they perform almost identically.
+2. There was non-DRY code in the change song functionality. The Next and Previous song buttons each had their own function definitions, even though they perform almost identically.
 
 3. The time that the song had been playing was not updating correctly. Users could not search to their favorite part of any song
 
