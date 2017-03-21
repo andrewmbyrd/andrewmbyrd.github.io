@@ -22,11 +22,11 @@ Bloc needed something to show off what they could do; they had to prove they had
 When I was shown the framework that had been built for BlocJams, the application was only half complete. The Bloc team needed me to improve functionality in several ways:
 
 1. After a user was in the view page for an album, there was no way to get to another album without first having to
-  * Click out of the current album
-  * Find the next album to be played and click on it
+  ⋅⋅* Click out of the current album
+  ⋅⋅* Find the next album to be played and click on it
 This was clunky and undesireable.
 
-2.  There was non-DRY code in the change song functionality. The Next and Previous song buttons each had their own function definitions, even though they perform almost identically.
+2. There was non-DRY code in the change song functionality. The Next and Previous song buttons each had their own function definitions, even though they perform almost identically.
 
 3. The time that the song had been playing was not updating correctly. Users could not search to their favorite part of any song
 
