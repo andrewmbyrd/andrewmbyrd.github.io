@@ -2,7 +2,7 @@
 layout: post
 title: BlocJams
 thumbnail-path: "img/blocjams.png"
-short-description: BlocJams is a web-based music player that can display a collection of albums and play songs from you browser.
+short-description: BlocJams is a web-based music player that can display a collection of albums and play songs from your browser.
 
 ---
 
