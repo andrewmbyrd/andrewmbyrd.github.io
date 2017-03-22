@@ -1,22 +1,22 @@
 ---
 layout: post
 title: Pong
-thumbnail-path: "img/pong_welcome.JPG"
+thumbnail-path: "img/pong_portfolio_pic.JPG"
 short-description: Classic Pong gameplay, with both single player and multiplayer modes. Keyboard controls and mouse control is supported! Powered by the HTML5 canvas element.
 
 ---
 
 {:.center}
-![]({{site.baseurl}}/img/pong_portfolio_pic.JPG)
+![]({{site.baseurl}}/img/pong_welcome.JPG)
 
 ## Summary
-Pong is the quintessential classic gaming experience. Originally release in 1972, this game has seen countless renditions and even improvements, yet nothing can ever really stand up to the original masterpiece. My immitation of Pong allows for single and multi-player experiences, as well as multiple controls options.
+Pong is the quintessential classic gaming experience. Originally release in 1972, this game has seen countless renditions and even improvements, yet nothing can ever really stand up to the original masterpiece. My immitation of Pong allows for single and multi-player experiences, as well as multiple controls options. You can play the game <a href="https://evening-temple-10291.herokuapp.com/">here</a>!
 
 ## Explanation
 
 As part of Bloc's curriculum, students are tasked with choosing at least 2 specialization projects. Being the avid fan of gaming that I am, it was a no-brainer for me to make my own attempt at the classic game in order to further specialize in my dream field of game development. The thing that set this project apart is that with most Bloc projects, there is at least some instruction on how to go about creating it. With this project, the instruction set was essentially, "1) Google the HTML5 canvas element. 2) Make Pong". With that, I set out to make the game. 
 
-## Problem
+## Problems
 
 The devlopment process of my first game was an interesting one. Unlike most other web applications, where items on the page are mainly static, Pong (and most other games) have their elements constantly in motion. This requires the frame to be refreshed at some frequency. The ideal here is the oft-cited gaming term "60 fps". Not a problem at all with a game as visually simplistic as Pong, but a new hurdle to overcome nonetheless.
 
@@ -127,7 +127,7 @@ Lastly, we have various menu options! In order to get the font to look nice and 
 
 ## Results
 
-The result is a fully-functional rendition of the classic Pong! Don't forget to play it for yourself <a href="">here!</a>
+The result is a fully-functional rendition of the classic Pong! Don't forget to play it for yourself <a href="https://evening-temple-10291.herokuapp.com/">here!</a>
 
 ## Conclusion
 
