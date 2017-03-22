@@ -11,7 +11,7 @@ short-description: BlocJams is a web-based music player that can display a colle
 
 ## Summary
 
-There are no web-based music players that can handle great works from the likes of Pablo Picasso. Bloc Jams was created to faciliate easy music streaming from your favorite browser, on your home computer or mobile device. This fully functional player lets you store and view your collection of albums, plays songs, even control *volume*.
+There are no web-based music players that can handle great works from the likes of Pablo Picasso. Bloc Jams was created to faciliate easy music streaming from your favorite browser, on your home computer or mobile device. This fully functional player lets you store and view your collection of albums, plays songs, even control *volume*. You can find the live version of this app <a href="https://powerful-bastion-36583.herokuapp.com/">here</a>.
 
 ## Explanation
 
