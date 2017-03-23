@@ -6,7 +6,7 @@ short-description: Making use of Amazon Web Services, this Skill lets the user s
 ---
 
 {:.center}
-![]({{site.baseurl}}/img/pong_welcome.JPG)
+![]({{site.baseurl}}/img/mtg-logo.png)
 
 ## Summary
 
