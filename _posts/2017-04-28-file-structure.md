@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Requiring Files and You
-thumbnail-path: "http://is3.mzstatic.com/image/thumb/Purple69/v4/85/eb/cc/85ebcc2d-714a-b15d-c81f-a1db6c4f1ade/source/1200x630bb.jpg"
+thumbnail-path: "img/atom.png"
 short-description: Navigating File Structures (especially in Ruby)
 ---
 
