@@ -1,13 +1,13 @@
 ---
 layout: post
 title: Connect Four
-thumbnail-path: "img/connect_four.JPG"
+thumbnail-path: "img/c4title.JPG"
 short-description: The classic Connect Four game with the convenience of a digital play experience.
 
 ---
 
 {:.center}
-![]({{site.baseurl}}/img/connect_four.JPG)
+[![Connect Four Link]({{site.baseurl}}/img/connect_four.JPG)](https://dry-savannah-43148.herokuapp.com/)
 {:.center}
 You can play connect four <a href='https://dry-savannah-43148.herokuapp.com/'>here</a>!
 
