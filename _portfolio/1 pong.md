@@ -1,13 +1,13 @@
 ---
 layout: post
 title: Pong
-thumbnail-path: "http://is3.mzstatic.com/image/thumb/Purple69/v4/85/eb/cc/85ebcc2d-714a-b15d-c81f-a1db6c4f1ade/source/1200x630bb.jpg"
+thumbnail-path: "img/cover_pong.jpg"
 short-description: Classic Pong gameplay, with both single player and multiplayer modes. Keyboard controls and mouse control is supported! Powered by the HTML5 canvas element.
 
 ---
 
 {:.center}
-!["https://evening-temple-10291.herokuapp.com/"]({{site.baseurl}}/img/pong_portfolio_pic.JPG)
+[![Pong Game Image]({{site.baseurl}}/img/pong_portfolio_pic.JPG)](https://evening-temple-10291.herokuapp.com/)
 
 ## Summary
 Pong is the quintessential classic gaming experience. Originally release in 1972, this game has seen countless renditions and even improvements, yet nothing can ever really stand up to the original masterpiece. My immitation of Pong allows for single and multi-player experiences, as well as multiple controls options. You can play the game <a href="https://evening-temple-10291.herokuapp.com/">here</a>!
