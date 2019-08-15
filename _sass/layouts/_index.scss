@@ -78,10 +78,10 @@
   float: left;
   width: 100%;
   .project {
-    display: block;
+    display: inline-block;
     float: left;
     clear:both;
-    width:100%;
+    width:45%;
     margin:2em auto;
     .project-thumb {
       width: 100%;
