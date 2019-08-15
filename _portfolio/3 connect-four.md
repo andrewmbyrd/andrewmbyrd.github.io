@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Connect Four
-thumbnail-path: "img/c4title.JPG"
+thumbnail-path: "img/c4header.png"
 short-description: The classic Connect Four game with the convenience of a digital play experience.
 
 ---

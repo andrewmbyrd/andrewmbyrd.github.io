@@ -79,13 +79,11 @@
   width: 100%;
   .project {
     display: inline-block;
-    float: left;
     clear:both;
-    width:45%;
-    margin:2em auto;
+    width:40%;
+    margin:6em auto;
     .project-thumb {
       width: 100%;
-      float: left;
       margin-bottom: 0;
       display: inline-block;
       @media (max-width: 768px) {
@@ -95,6 +93,7 @@
         display:block;
         text-align: center;
         margin:0 auto 1%;
+        height: 200px;
       }
     }
     .project-description {
