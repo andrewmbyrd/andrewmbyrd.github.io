@@ -77,11 +77,12 @@
   display: block;
   float: left;
   width: 100%;
+  padding:0 100px;
   .project {
     display: inline-block;
     clear:both;
     width:40%;
-    margin:6em auto;
+    margin:2rem;
     .project-thumb {
       width: 100%;
       margin-bottom: 0;
