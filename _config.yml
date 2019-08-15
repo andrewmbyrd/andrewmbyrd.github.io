@@ -10,8 +10,7 @@ theme_settings:
 
   # Header and footer text
   header_text: >
-     <h1>Full Stack Development Projects and Opinion Pieces</h1>
-     <p>A journey to a more fullfilling career</p>
+     <h1Professional Software Engineer</h1>
   header_text_feature_image:
   footer_text: >
    Powered by <a href="http://jekyllrb.com">Jekyll</a>
